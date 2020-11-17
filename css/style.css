@@ -373,15 +373,25 @@ input {
 
 /*-------------------------------FOOTER---------------------------------------*/
 #footer {
+  padding-top: 2rem;
   margin-top: 20px;
   height: auto;
   background-image: linear-gradient(white, #5a5a6e); }
 
-.social-media {
-  font-size: 30px;
-  padding: 0.5rem;
-  letter-spacing: 50px; }
+ul li {
+  padding: 0.5rem 0;
+  list-style: none; }
 
-.copyright h5 {
+.social {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #212529; }
+
+.social:hover {
+  color: #f04141;
+  text-decoration: none; }
+
+.copyright h6 {
   font-weight: 600;
-  padding: 0.5rem; }
+  font-style: italic;
+  margin-bottom: 20px; }
