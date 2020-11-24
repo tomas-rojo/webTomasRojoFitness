@@ -274,6 +274,7 @@ body {
   }
   
   .boxServicios{
+    background-color: $white;
     margin: auto;
     margin-bottom: 30px;
     width: 90%;
@@ -421,13 +422,13 @@ body {
   height: auto;
   padding: 25px 0;
   margin-bottom: 50px;
-  opacity: 0.8;
 }
 
 .form{
   background: $white;
+  opacity: 0.9;
   padding: 30px;
-  margin: 50px;
+  margin: 4rem 10rem;
   border-radius: 20px;
 }
 
@@ -436,6 +437,7 @@ input{
 }
 
 .button{
+  background: $white;
   font-family:'Montserrat',sans-serif;
   color: $cool-grey;
   font-size: $big-font-weight;
@@ -453,6 +455,13 @@ input{
 
 .col-sm-12{
   padding: 0;
+}
+
+@media only screen and (max-width: 1000px){
+  .form{
+    margin: 2rem;
+  }
+
 }
 
 /*-------------------------------ACERCA DE MI---------------------------------*/
@@ -492,14 +501,16 @@ input{
   /*-------------------------------FOOTER---------------------------------------*/
 
 #footer{
-    padding-top: 2rem;
+    padding-top: 1rem;
     margin-top: 20px;
     height: auto;
-    background-image: linear-gradient($white, $cool-grey);
+    background-color: #cccccc;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23000000' fill-opacity='0.07'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   }
 
   #footer img{
-    width: 50%;
+    vertical-align: middle;
+    width: 60%;
   }
 
   #footer h5{
@@ -512,8 +523,8 @@ input{
     padding: 0.5rem 0;
     list-style: none;
   }
+
  
-  
 .social{
   text-decoration: none;
   font-size: 18px;
@@ -525,8 +536,15 @@ input{
   text-decoration: none;
 }
   
+.icon{
+  font-size: 32px;
+  padding-top: 0.6rem;
+  padding-right: 0.5rem;
+}
+
 .copyright h6{
+  font-size: 13px;
     font-style: italic;
-    margin: 30px 0;
+    margin: 15px 0;
   }
   
